@@ -17,6 +17,11 @@ toHtml.WriteHTML(outputFile + '.html', html)
 PdfWriter.WritePDF(outputFile + '.pdf', html)
 ~~~
 
+### Executando o script.
+
+#### É necessario ter o Node.js instalado na sua maquina, caso não tenha faça o download da versão LTS no link:
+[Download Node.js](https://nodejs.org/en)
+
 #### Abra o terminal na pasta do projeto e execute os comandos:
 ```
 npm install
