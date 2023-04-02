@@ -1,19 +1,29 @@
 # Projeto para a conversão de arquivos CSV.
 
-### 1- É necessario salvar no formato .csv o arquivo excel que vai ser convertido.
+### Esse script converte tabelas do excel para PDF ou HTML.
 
-### 2- O arquivo deve ser colocado na pasta input dentro da pasta files.
+#### É necessario salvar a tabela no formato .csv.
 
-### 3- Para criar apenas arquivos PDF, comente ou delete a linha 20 no arquivo app.js.
+#### O arquivo deve ser colocado na pasta input localizada na pasta files.
+
+#### Para criar apenas arquivos PDF, comente ou delete a linha 20 no arquivo app.js.
+##### Para comentar uma linha adicione //, duas barras, no inicio da linha.
 ~~~javascript
 toHtml.WriteHTML(outputFile + '.html', html)
 ~~~
 
-### 4- Para criar apenas arquivos HTML, comente ou delete a linha 21 no arquivo app.js.
+#### Para criar apenas arquivos HTML, comente ou delete a linha 21 no arquivo app.js.
 ~~~javascript
 PdfWriter.WritePDF(outputFile + '.pdf', html)
 ~~~
 
-### 5- Rode o arquivo app.js para iniciar a conversão e criar os arquivos.
+#### Abra o terminal na pasta do projeto e execute os comandos:
+```
+npm install
+```
 
-### 6- O novo arquivo criado vai estar na pasta output dentro da pasta files.
+```
+node app.js
+```
+
+#### O novo arquivo criado vai estar na pasta output localizada na pasta files.
